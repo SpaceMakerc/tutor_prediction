@@ -2,11 +2,13 @@
 
 This project based on the Kagle competition. Link to the competition - https://www.kaggle.com/competitions/gb-choose-tutors
 
+The main target of this repository is put into practice the knowledge about Logistic Regression
+
 Description:
 
 In this competition your task will be to predict the probability for a tutor to be a proper one for preparing for the math exam. You will be given two datasets: train.csv (contains all features and the target) and test.csv (only features).
 
-The evaluation metric is ROC AUC
+The evaluation metric is ROC-AUC
 
 Competition Rules - You can only use these imports:
 
@@ -44,3 +46,5 @@ history - teaches history
 mean_exam_points
 
 choose - target feature
+
+As the result: fitted model predicted chosen tutors. Metric ROC-AUC showed 0.824 on Baseline. On test data (the result of the competition) 0.97793
